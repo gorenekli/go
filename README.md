@@ -1,6 +1,7 @@
 I will demonstrate here a simple server and client side of a Project developed in language “go”
 
 <h2>The problem is:</h2>
+
 There is a simple implementation of file server based on http.FileServer handle ( https://pkg.go.dev/net/http#example-FileServer ).
 The server instance is running on top of simple file folder which doesn’t have nested subfolders.
 Please implement client which downloads files using this server.
