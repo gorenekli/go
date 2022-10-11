@@ -4,11 +4,17 @@ I demonstrate here a simple server and client side of a Project developed in lan
 There is a simple implementation of file server based on http.FileServer handle ( https://pkg.go.dev/net/http#example-FileServer ).
 
 The server instance is running on top of simple file folder which doesn’t have nested subfolders.
+
 Please implement client which downloads files using this server.
+
 You should download a file containing char 'A' on earlier position than other files.
+
 In case several files have the 'A' char on the same the earliest position you should download all of them.
+
 Each TCP connection is limited by speed. The total bandwidth is unlimited.
+
 You can use any disk space for temporary files.
+
 The goal is to minimize execution time and data size to be transferred.
  
 ======================================================
