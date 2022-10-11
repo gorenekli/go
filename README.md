@@ -69,7 +69,7 @@ Reads the content through http://localhost:8090/docs/
 
 Append all the filenames to the sfile[] list.
 
-The first and last lines which consist of <pre> and </pre> won’t be appended.
+The first and last lines which consist of \<pre> and \</pre> won’t be appended.
 
 With the use of index() method the leftmost indexes of letter “A” in each filenames are appended to winner[]. -1 is appended if there is no letter “A” in a filename.
 
